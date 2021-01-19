@@ -1,0 +1,83 @@
+@@ -1497,7 +1497,7 @@ fieldset[disabled]
+.show > .btn-primary.dropdown-toggle,
+.show > .btn-primary.dropdown-toggle:focus,
+.show > .btn-primary.dropdown-toggle:hover {
+  background-color: #40a249;
+  background-color: #ADD8E6;
+  color: #FFFFFF;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+@@ -1526,8 +1526,8 @@ fieldset[disabled] .btn-primary.active {
+
+.btn-primary.btn-simple:hover, .btn-primary.btn-simple:focus, .btn-primary.btn-simple:active {
+  background-color: transparent;
+  color: #40a249;
+  border-color: #40a249;
+  color: #ADD8E6;
+  border-color: #ADD8E6;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+@@ -1538,7 +1538,7 @@ fieldset[disabled] .btn-primary.active {
+
+.btn-primary.btn-link:hover, .btn-primary.btn-link:focus, .btn-primary.btn-link:active {
+  background-color: transparent;
+  color: #40a249;
+  color: #ADD8E6;
+  text-decoration: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+@@ -1844,13 +1844,13 @@ fieldset[disabled] .btn-neutral.active {
+.show > .btn-neutral.dropdown-toggle:focus,
+.show > .btn-neutral.dropdown-toggle:hover {
+  background-color: #FFFFFF;
+  color: #40a249;
+  color: #ADD8E6;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.btn-neutral:hover, .btn-neutral:focus {
+  color: #40a249;
+  color: #ADD8E6;
+}
+
+.btn-neutral:hover:not(.nav-link), .btn-neutral:focus:not(.nav-link) {
+@@ -7070,7 +7070,7 @@ Created using IcoMoon - icomoon.io
+
+.cc-profile-image a:before {
+  content: "";
+  border: 15px solid rgba(55, 140, 63, 0.6);
+  border: 15px solid rgba(173, 216, 230, 0.6);
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+@@ -7258,3 +7258,28 @@ a.credit {
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+
+	::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #000000;
+	border-radius: 10px;
+}
+::-webkit-scrollbar
+{
+        min-height: 450px;
+	width: 10px;
+	background-color: #000000;
+}
+::-webkit-scrollbar-thumb
+{
+	min-height: 450px;
+	border-radius: 10px;
+	background-image: -webkit-gradient(linear,
+									   left bottom,
+									   left top,
+									   color-stop(0.44, rgb(122,153,217)),
+									   color-stop(0.72, rgb(73,125,189)),
+									   color-stop(0.86, rgb(28,58,148)));
+}
